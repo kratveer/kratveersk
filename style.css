@@ -1,0 +1,1066 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,900');
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+@import url('https://fonts.googleapis.com/css?family=Arsenal');
+@import url('https://fonts.googleapis.com/css?family=Damion');
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text');
+@import url('https://fonts.googleapis.com/css?family=Markazi+Text|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+
+body{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    margin:0;
+    padding:0;
+}
+
+
+nav{
+    border-top: 2px solid black;
+   
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); 
+    height: 14vw;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+}
+
+.intro{
+    position: relative;
+    width: 100%;
+    max-width: 19vw;
+    float: left;
+    font-family: 'Cinzel', serif;
+    margin: 0 auto;
+    padding: 2.5vw 10px 0 10vw;
+}
+.intro img{
+    height: 9.2vw;
+    width: 9.2vw;
+}
+.name{
+    width: 80%;
+    padding: 3.2vw 0 0 0;
+    font-size: 3.2vw;
+    color: #4d0000;
+}
+.name a{
+    font-size: 2.3vw;
+}
+.navbar{
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    height: 3.38vw;
+    box-shadow: 0 .05vw .1vw;
+    
+}
+.navbar ul{
+    display: flex;
+    margin: 0;
+    
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    display: block;
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+    padding: .88vw 1.6vw .94vw 1.6vw;
+    text-decoration: none;
+    font-size: 1.3vw;
+    color: white;   
+    
+}
+.navbar ul li:hover{
+    border: 0px solid white;
+    border-radius: .4vw;
+    background: rgba(255,255,255,0.8);
+    
+}
+
+.navbar ul li ul{
+    display: block;
+    position: absolute;
+    margin: .089vw 0 0 0;
+    padding: .8vw 0 0 0;
+    box-shadow: 0 2px 5px;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    opacity: 0;
+    visibility: hidden;
+}
+.navbar ul li ul li a{
+    font-size: 1.3vw;
+    border-bottom: .1vw solid white;
+    text-align: left;
+}
+
+
+
+
+.navbar ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    
+}
+.navbar ul li a:hover{
+    color: darkred;
+}
+.navbar ul li a.active {
+    background: rgba(255,255,255,0.9);
+    color: darkred;
+    border-radius: .4vw;
+}
+.bothtogether{
+    width: 100%;
+    height: auto;
+    
+}
+.content{
+    margin: 2vw 0 0 0;
+    width: 70%;
+    background: transparent;
+    height: 37vw;
+}
+.content p{
+    
+    padding: 2.5vw 0 0 2vw;
+    font-size: 2vw;
+    text-align: center;
+    
+}
+.maincon {
+    font-size: 1.4vw;
+    margin: 3vw 3vw 0 8vw;
+    color: black;
+}
+.picturemain{
+    width: 53vw;
+    height: auto;
+    margin: 3vw 3vw 0 8vw;
+}
+.borderlife{
+    width: 23%;
+    padding: 0 2vw 2vw 2vw;
+    margin: 1vw 3vw 0 0;
+    float: right;
+    
+    background: rgba(255,255,255,0.3);
+    text-align: center;
+    border-radius: .5vw;
+}
+.proimg{
+    padding: 3vw 0 0 0;
+    width: 69%;
+    height: auto;
+}
+.borderlife h2{
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+.borderlife p{
+    font-size: 1.4vw;  
+    font-weight: 300;
+}
+.groupcall1, fax1, mail1{
+    font-size: 1.4vw;
+    font-weight: 400;
+    margin-top: .5vw;
+}
+.borderlife button{
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    color: black;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.timline {
+    width: 80vw;
+  position: relative;
+  margin-left: 7vw;
+}
+.contnt h2{
+    font-family: serif;
+    font-size: 1.8vw;
+    font-weight: 700;
+}
+
+.contnt p{
+    font-size: 1.2vw;
+    text-align: left;
+    margin: 0 3vw 0 2vw;
+    padding: 0 0 .5vw 0;
+    
+}
+.contnt li{
+    font-size: 1.2vw;
+}
+.contnt h5{
+    
+    font-size: 1.2vw;
+    margin: 0 0 1vw 0;
+}
+/* Container around content */
+.container {
+  padding: 1vw 2vw;
+  position: relative;
+  background: transparent;
+  width: 70%;
+}
+.contnt {
+    border: .1vw solid black;
+  padding: 5px 30px;
+  background: transparent;
+  position: relative;
+  border-radius: 2vw;
+}
+
+
+.publish{
+    width: 86vw;
+    height: 30vw;
+    margin: 40px auto;
+    margin-top: 50px;
+}
+.publications{
+    
+    
+    background: rgba(0,0,0,0.5);
+    color: aqua;
+    font-size: 1.8vw;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.publish ul{
+    float: left;
+    width: 80%;
+    
+}
+.publish li{
+    padding: .4vw;
+    font-size: 1.3vw;
+}
+.publish li a{
+    padding: .4vw;
+    font-size: 1.3vw;
+}
+.pubimg img{
+    margin-top: 1vw;
+    float: right;
+    width: 16.5vw;
+    height: 23vw;
+    border: .1vw solid black;
+}
+.pubimg img:hover{
+    background: rgba(0,0,0,0.3);
+    border: .2vw solid black;
+    
+}
+
+
+
+
+
+
+.news{
+    width: 86vw;
+    height: 32vw;
+    margin: 40px auto;
+    margin-top: 50px;
+}
+.grpnews{
+    
+    background: rgba(0,0,0,0.5);
+    color: aqua;
+    font-size: 1.8vw;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.news ul{
+    margin: 10px;
+    padding: 10px;
+    
+}
+.news li{
+    list-style: none;
+    text-decoration: none;
+    padding: .4vw;
+    font-size: 1.3vw;
+}
+
+.funding{
+    width: 86vw;
+    height: 20vw;
+    margin: 40px auto;
+    margin-top: 50px;
+
+}
+.fund{
+
+    background: rgba(0,0,0,0.5);
+    color: aqua;
+    font-size: 1.8vw;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    
+}
+.fund1 img{
+    float: left;
+    padding: 3vw 0 0 5vw;
+    
+    width: 16.3vw;
+    height: 14vw;
+    
+}
+.fund2 img{
+    
+    padding: 3vw 0 0 22vw;
+    float: left;
+    width: 32vw;
+    height: 14vw;
+    
+}
+.fund3 img{
+    padding: 1vw 0 0 5vw;
+    float: right;
+    width: 28vw;
+    height: 17vw;
+    
+}
+
+
+.footer{
+    width: 100%;
+    background: #232f3e;
+    height: 21vw;
+    margin:auto;
+    margin-top: 50px;
+    display: flex;
+}
+.row1{
+    box-sizing: border-box;
+    
+    width: 33%;
+    margin: 2vw auto;
+    
+    
+}
+.aboutus{
+    
+    background: rgba(0,0,0,0.3);
+    color: white;
+    font-size: 1.7vw;
+    text-align: center;
+    
+}
+.written{
+    padding: 2vw;
+    color: white;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.1vw;
+}
+.written a{
+    color: red;
+    font-size: 1.1vw;
+}
+.row2{
+    
+    box-sizing: border-box;
+    
+    width: 33%;
+    margin: 2vw auto;
+    
+    
+}
+.students{
+    
+    background: rgba(0,0,0,0.3);
+    color: white;
+    font-size: 1.7vw;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+.row2 li{
+    color: white;
+    font-family: 'Noto Serif', serif;
+    padding: .5vw 0 0 0;
+    font-size: 1.1vw;
+}
+
+.row3{
+    
+    box-sizing: border-box;
+    padding: 0;
+    width: 33%;
+    margin: 2vw auto;
+    
+    
+    
+}
+.contact{
+    
+    background: rgba(0,0,0,0.3);
+    color: white;
+    
+    font-size: 1.7vw;
+    text-align: center;
+    box-sizing: border-box;
+    border: 0 solid black;
+}
+.groupcall{
+    color: white;
+    font-family: 'Noto Serif', serif;
+    padding: 2vw 5vw 0 10vw;
+    font-size: 1.5vw;
+}
+
+
+
+.lastfooter{
+    height: 5vw;
+    width: 100%;
+    padding: 1vw;
+    background: #111;
+    color: white;
+    box-sizing: border-box;
+    
+}
+.lastfootleft{
+    text-align: center;
+    
+    width: 60%;  
+    float: left;
+    font-size: 1.1vw;
+    
+    
+}
+.lastfootright{
+    text-align: right;
+    padding: 0 5vw 0 0;
+   width: 40%;
+    float:left;
+    font-size: 1.1vw;
+}
+.lastfootright a{
+   color: darkred;
+    font-size: 1.3vw;
+}
+.lastfootright a:hover{
+   color: white;
+}
+
+
+.teaching{
+    font-size: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    padding: 40px 0 40px 0;
+    font-weight: 600;
+    
+}
+.teach ul{
+    margin: 0;
+    padding: 0;
+    
+}
+.teach ul li{
+    margin: auto;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px 0 10px 0;
+    font-size: 17px;
+    
+    box-sizing: border-box;
+    width: 40%;
+    
+}
+
+.opportunity{
+    font-size: 24px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    padding: 40px 0 40px 0;
+    font-weight: 600;
+    
+}
+.oppor ul{
+    margin: 0;
+    padding: 0;
+    
+}
+.oppor h1{
+    font-size: 22px;
+    text-align: center;
+}
+
+.oppor a{
+    box-sizing: border-box;
+    border: .1vw solid black;
+    box-shadow:  .1vw .1vw 1vw 0;
+    font-size: 15px;
+    padding: .3vw .8vw .3vw .8vw;
+    
+   
+    background: #232f3e;
+    color: white;
+    
+}
+.oppor a:hover{
+    box-shadow:  .1vw .1vw 1.3vw;
+    background: darkred;
+    
+}
+.oppor ul li{
+    margin: 0 0 0 31vw;
+    
+    text-decoration: none;
+    padding: 10px 0 18px 0;
+    font-size: 19px;
+    
+    box-sizing: border-box;
+    width: 60%;
+    
+}
+
+
+.contactme{
+    font-size: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    padding: 40px 0 40px 0;
+    font-weight: 600;
+    
+}
+.contact1 h1{
+    font-size: 22px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.owncontact{
+    
+    width: 33vw;
+    height: auto;
+    margin: 4vw auto;
+}
+.owncontact:hover{
+    background: rgba(0,0,0,0.03);
+}
+
+.card {
+    
+    box-shadow: 4px 4px 10px 0;
+    text-align: center;
+    margin: auto;
+    
+}
+.card h2{
+    font-size: 1.4vw;
+}
+
+.title {
+    color: darkslategrey;
+    font-size: 1.3vw;
+}
+
+button{
+    border: none;
+    padding: .4vw;
+    color: white;
+    background-color: #232f3e;
+    text-align: center;
+    cursor: pointer;
+    width: 21vw;
+    font-size: 1vw;
+    border-radius: 10px;
+    margin: 1.3vw 0 0 -.8vw;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5vw;
+    color: darkblue;
+}
+
+button:hover{
+   background: darkred; 
+    
+}
+.card i{
+    color: darkred;
+    
+}
+
+
+
+
+
+.sir1{
+    font-size: 1.4vw;
+    float: right;
+    width: 27%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 40px;
+    margin: 4vw 0 0 0;
+    text-align: center;
+}
+
+.sir2{
+    font-size: 1.4vw;
+    float: left;
+    width: 67%;
+    height: 90vw;
+    margin: 4vw 0 4vw 3vw;
+    padding: 1.6vw;
+    box-sizing: border-box;
+    border: 0px solid black;
+    background: rgba(0,0,0,0.03);
+}
+.sir1left{
+    width: 60%;
+    height: auto;
+}
+.sirleft{
+    padding: 4vw 0 6vw 3vw;
+    font-size: 1.2vw;
+}
+.sirleft h3{
+    font-size: 1.6vw;
+}
+.sirleft a{
+    font-size: 1.2vw;
+    padding: .4vw;
+    color: darkred;
+}
+.sirleft b{
+    font-size: 1.2vw;
+    margin: 0 0 0 1vw;
+}
+.sirleft a:hover{
+    font-size: 1.2vw;
+    color: darkblue;
+}
+.former11 ul li{
+    margin: 0 0 0 5vw;
+    padding: .4vw;
+    font-size: 1.3vw;
+}
+.sir1 h2{
+    font-size: 1.4vw;
+    font-family: serif;
+}
+
+
+
+.groupsec{
+    font-size: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 50%;
+    margin: auto;
+    padding: 40px 0 40px 0;
+    font-weight: 600;
+    
+    
+}
+.group1 h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 3vw;
+}
+.group1{
+    
+   width: 90vw; 
+   margin: auto;
+    
+}
+.starcard{
+    width: 90vw;
+    margin: auto;
+    height: 38vw;
+    
+}
+.card1 img, .card2 img, .card3 img{
+    width: 20.8vw;
+    height: 21vw;
+}
+.card1{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 21vw;
+    float: left;
+    font-size: 1vw;
+    
+    text-align: center;
+}
+.card2{
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 21vw;
+    font-size: 1vw;
+    margin: 0 12vw 0 12vw;
+    text-align: center;
+}
+.card3{
+    box-sizing: border-box;
+    border: 1px solid black;
+    float: right;
+    font-size: 1vw;
+     width: 21vw;   
+    text-align: center;
+}
+.column2{
+    height: 38vw;
+    width: 90%; 
+    margin: auto;
+    
+}
+.column3{
+    height: 60vh;
+    width: 90%; 
+    margin: auto;
+    box-sizing: border-box;
+    
+}
+.card5 {
+    
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 21vw;
+    font-size: 1vw;
+    margin: 0;
+    text-align: center;
+}
+
+.card5 img{
+    width: 20.8vw;
+    height: 20.8vw;
+}
+
+
+
+
+
+
+
+.form{
+    width: 90vw;
+    height: 56vw;
+    margin: 4vw auto;
+    margin-top: 2vw;
+}
+.former{
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    color: aqua;
+    font-size: 1.8vw;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 4vw 1vw 2vw 1vw;
+}
+.former1{
+    width: 90%;
+    margin: 4vw auto;
+    background: rgba(0,0,0,0.5);
+    color: aqua;
+    font-size: 1.8vw;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    
+}
+.phd li, .intern li, .msc li{
+    font-size: 1.2vw;
+    width: 60vw;
+    margin: auto;
+    padding: 0 0 .4vw 0;
+}
+.phd ul, .intern ul, .msc ul{
+    width: 80vw;
+    margin: auto;
+    font-size: 1.26vw;
+}
+
+
+
+
+.researchmain{
+    width: 85vw;
+    height: auto;
+    
+    margin: auto;
+    
+}
+.research1 h1{
+    
+    font-size: 18px;
+    width: 85vw;
+    font-weight: 300;
+}
+.recentre{
+    margin-top: 80px;
+    width: 87%;
+    margin: auto;
+}
+.currentre{
+    margin-top: 30px;
+    width: 87%;
+    margin: auto;
+}
+.currentre h3, p{
+    width: 96%;
+    margin: auto;
+    padding: 3px;
+}
+
+.research1{
+   width: 100%;
+    height: auto;
+    margin: auto;
+    
+    
+}
+.image1{
+    width: 61.8vw;
+    margin: 2vw 17.7vw 0 17.7vw;
+    height: auto;
+    
+    
+}
+.research1 h3{
+    width: 100%;
+    margin: 5vw 0 0 0;
+    text-align: center;
+    
+}
+.research2{
+   width: 100%;
+    height: auto;
+    margin: auto;
+    
+    
+}
+.researchimg2{
+    width: 53.03vw;
+    
+    margin: 2vw 23vw 0 23vw;
+    height: auto;
+}
+.research2 h4{
+    text-align: center;
+    font-weight: 200;
+    font-size: 1.2vw;
+    margin-top: 0;
+}
+.melody{
+    display: flex;
+}
+.melody1{
+    
+    width: 23.32vw;
+    margin:  2vw 4.5vw 0 22vw;
+    height: auto;
+    
+    text-align: center;
+}
+.melody2{
+    width: 23.33vw;
+    margin:  2vw 22vw 0 4.5vw;
+    text-align: center;
+    
+    height: auto;
+}
+
+
+
+.melodyagain{
+    width: 100%;
+    margin: auto;
+    height: auto;
+    display: flex;
+}
+.melody3{
+    
+    margin:  6vw 5vw 0 19vw;
+   width: 50%;
+    
+    height: auto;
+    
+   
+    
+    
+}
+.melody4{
+    
+    margin:  6vw 17vw 0 5vw;
+    width: 60%;
+  
+    height: auto;
+    
+}
+
+
+.melodyagain1{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+.melody5{
+    margin:  6vw 5vw 0 19vw;
+    width: 50%;
+    height: auto;
+    
+}
+.melody6{
+    margin:  6vw 19vw 0 5vw;
+   
+    width: 53.3%;
+    height: auto;
+    
+}
+
+.melody8{
+    width: 70%;
+    height: auto;
+    margin: 5vw 15vw 0 15vw;
+}
+.melodyagain2{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.melodyagain3{
+    width: 100%;
+}
+.melody7{
+    width: 52.2vw;
+    height: auto;
+    margin: 3vw 23.7vw 0 23.8vw;    
+}
+
+
+
+
+
+.column9 {
+  flex: 30%;
+  padding: 5px;
+    
+  
+}
+.rowrow{
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    list-style: none;
+   text-align: center;
+    border: 1px solid black;
+    
+}
+.rowimg1, .rowimg2, .rowimg3, .rowimg4{
+    width: 87%;
+    margin: auto;
+    padding: 100px 0 0 0;
+    text-align: center;
+    padding: 30px;
+    border: 1px solid black;
+}
+.rowimg3 h2{
+    box-sizing: border-box;
+    border: 2px solid black;
+    width: 300px;
+    margin: auto;
+}
+
+
+
+
+
+.publi{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 2vw;
+    border: 1px solid black;
+    
+}
+
+.basicimg{
+    padding: 1.5vw 0 0 0;
+}
+.publidis{
+    font-size: 1.2vw;
+    padding: 0 0 0 30px;
+}
+.publidis1{
+    font-size: 1.2vw;
+    padding: 0 0 0 30px;
+    width: 70%;
+    
+}
+.publidis a{
+    font-size: 1.2vw;
+}
+.publidis1 a{
+    font-size: 1.2vw;
+}
+
+.extraimg img{
+    width: 80%;
+    height: auto;
+    
+    border: 1px solid black;
+}
+
+
+
+
+
+
